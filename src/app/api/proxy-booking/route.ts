@@ -19,6 +19,48 @@ export async function POST(request: Request) {
 
         const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
+        // --- Security & Validation ---
+
+        // 1. Sanitize Strings
+        const safeName = customer_name?.replace(/[<>]/g, "").trim().slice(0, 100);
+        const safeLocation = pickup_location?.replace(/[<>]/g, "").trim().slice(0, 100);
+        const safeEmail = email?.trim().toLowerCase();
+
+        // 2. Validate Required Fields
+        if (!car_id || !safeName || !phone || !safeEmail || !pickup_date || !return_date) {
+            return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+        }
+
+        // 3. Validate UUID (Basic Regex)
+        const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+        if (!uuidRegex.test(car_id)) {
+            return NextResponse.json({ error: "Invalid Car ID format" }, { status: 400 });
+        }
+
+        // 4. Validate Email
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(safeEmail)) {
+            return NextResponse.json({ error: "Invalid email address" }, { status: 400 });
+        }
+
+        // 5. Validate Dates
+        const start = new Date(pickup_date);
+        const end = new Date(return_date);
+        const now = new Date();
+        now.setHours(0, 0, 0, 0);
+
+        if (isNaN(start.getTime()) || isNaN(end.getTime())) {
+            return NextResponse.json({ error: "Invalid date format" }, { status: 400 });
+        }
+        if (start < now) {
+            return NextResponse.json({ error: "Pickup date cannot be in the past" }, { status: 400 });
+        }
+        if (end <= start) {
+            return NextResponse.json({ error: "Return date must be after pickup date" }, { status: 400 });
+        }
+        // -----------------------------
+
+
         // Fetch Car details
         const { data: car, error: carErr } = await supabase
             .from("cars")
@@ -42,10 +84,10 @@ export async function POST(request: Request) {
         const { data: booking, error: bookingErr } = await supabase.from("bookings").insert({
             car_id,
             driver_id: driver_id || null,
-            customer_name,
+            customer_name: safeName,
             phone,
-            email,
-            pickup_location,
+            email: safeEmail,
+            pickup_location: safeLocation,
             pickup_date,
             return_date,
             total_price,
