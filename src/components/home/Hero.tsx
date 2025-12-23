@@ -44,8 +44,8 @@ export default function Hero() {
                         <div className="flex-1 flex items-center px-4 py-2 gap-3 border-b lg:border-b-0 lg:border-r border-border">
                             <MapPin size={18} className="text-accent" />
                             <div className="flex flex-col min-w-[120px]">
-                                <span className="text-[10px] uppercase font-bold text-muted tracking-widest text-nowrap">Location</span>
-                                <select className="bg-transparent text-sm font-medium outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer">
+                                <span className="text-[10px] uppercase font-extrabold text-zinc-500 tracking-widest text-nowrap">Location</span>
+                                <select className="bg-transparent text-sm font-bold text-foreground outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer">
                                     <option>Lagos (Island & Mainland)</option>
                                     <option>Abuja (FCT)</option>
                                     <option>Port Harcourt</option>
@@ -56,16 +56,16 @@ export default function Hero() {
                         <div className="flex-1 flex items-center px-4 py-2 gap-3 border-b lg:border-b-0 lg:border-r border-border">
                             <Calendar size={18} className="text-accent" />
                             <div className="flex flex-col min-w-[120px]">
-                                <span className="text-[10px] uppercase font-bold text-muted tracking-widest text-nowrap">Dates</span>
-                                <span className="text-sm font-medium text-nowrap">Select Pickup Date</span>
+                                <span className="text-[10px] uppercase font-extrabold text-zinc-500 tracking-widest text-nowrap">Dates</span>
+                                <span className="text-sm font-bold text-foreground text-nowrap">Select Pickup Date</span>
                             </div>
                         </div>
 
                         <div className="flex-1 flex items-center px-4 py-2 gap-3 lg:border-none">
                             <Users size={18} className="text-accent" />
                             <div className="flex flex-col min-w-[120px]">
-                                <span className="text-[10px] uppercase font-bold text-muted tracking-widest text-nowrap">Service</span>
-                                <select className="bg-transparent text-sm font-medium outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer">
+                                <span className="text-[10px] uppercase font-extrabold text-zinc-500 tracking-widest text-nowrap">Service</span>
+                                <select className="bg-transparent text-sm font-bold text-foreground outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer">
                                     <option>With Driver (Recommended)</option>
                                     <option>Self-drive (Verified only)</option>
                                 </select>

@@ -422,7 +422,7 @@ function Hero() {
                                             className: "flex flex-col min-w-[120px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-[10px] uppercase font-bold text-muted tracking-widest text-nowrap",
+                                                    className: "text-[10px] uppercase font-extrabold text-zinc-500 tracking-widest text-nowrap",
                                                     children: "Location"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/Hero.tsx",
@@ -430,7 +430,7 @@ function Hero() {
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                    className: "bg-transparent text-sm font-medium outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer",
+                                                    className: "bg-transparent text-sm font-bold text-foreground outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "Lagos (Island & Mainland)"
@@ -486,7 +486,7 @@ function Hero() {
                                             className: "flex flex-col min-w-[120px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-[10px] uppercase font-bold text-muted tracking-widest text-nowrap",
+                                                    className: "text-[10px] uppercase font-extrabold text-zinc-500 tracking-widest text-nowrap",
                                                     children: "Dates"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/Hero.tsx",
@@ -494,7 +494,7 @@ function Hero() {
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-sm font-medium text-nowrap",
+                                                    className: "text-sm font-bold text-foreground text-nowrap",
                                                     children: "Select Pickup Date"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/Hero.tsx",
@@ -528,7 +528,7 @@ function Hero() {
                                             className: "flex flex-col min-w-[120px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-[10px] uppercase font-bold text-muted tracking-widest text-nowrap",
+                                                    className: "text-[10px] uppercase font-extrabold text-zinc-500 tracking-widest text-nowrap",
                                                     children: "Service"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/Hero.tsx",
@@ -536,7 +536,7 @@ function Hero() {
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                    className: "bg-transparent text-sm font-medium outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer",
+                                                    className: "bg-transparent text-sm font-bold text-foreground outline-none border-none p-0 focus:ring-0 appearance-none cursor-pointer",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                             children: "With Driver (Recommended)"
