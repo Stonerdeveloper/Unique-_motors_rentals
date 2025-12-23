@@ -72,11 +72,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                     <div className="flex items-center justify-between">
                         <Link href="/" className="flex flex-col items-start gap-1">
                             <Image
-                                src="/blue_logo.jpg"
-                                alt="Unique Motors Logo"
-                                width={160}
+                                src="/logo.svg"
+                                alt="Unique Motors"
+                                width={180}
                                 height={40}
-                                className="h-8 w-auto object-contain"
+                                className="h-8 w-auto"
                                 priority
                             />
                             <span className="text-[10px] uppercase text-zinc-400 font-bold tracking-widest pl-1">Admin Portal</span>
@@ -123,11 +123,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <header className="h-16 border-b border-zinc-200 bg-white flex items-center justify-between px-8 lg:hidden shrink-0">
                     <Link href="/" className="flex items-center">
                         <Image
-                            src="/blue_logo.jpg"
-                            alt="Unique Motors Logo"
-                            width={120}
-                            height={30}
-                            className="h-8 w-auto object-contain"
+                            src="/logo.svg"
+                            alt="Unique Motors"
+                            width={140}
+                            height={32}
+                            className="h-8 w-auto"
                             priority
                         />
                     </Link>

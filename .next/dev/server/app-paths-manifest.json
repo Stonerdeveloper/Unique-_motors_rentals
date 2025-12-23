@@ -1,11 +1,3 @@
 {
-  "/admin/bookings/page": "app/admin/bookings/page.js",
-  "/admin/cars/page": "app/admin/cars/page.js",
-  "/admin/login/page": "app/admin/login/page.js",
-  "/admin/page": "app/admin/page.js",
-  "/admin/settings/page": "app/admin/settings/page.js",
-  "/admin/signup/page": "app/admin/signup/page.js",
-  "/api/proxy-booking/route": "app/api/proxy-booking/route.js",
-  "/cars/[id]/page": "app/cars/[id]/page.js",
   "/page": "app/page.js"
 }

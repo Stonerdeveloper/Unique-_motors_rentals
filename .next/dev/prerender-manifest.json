@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/cars/d9052c60-7b85-4a29-adab-8945bcbc636e":{},"/cars/54de66cb-20fc-4624-9f58-c1142eb85ef2":{}},"dynamicRoutes":{"/cars/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/cars/[id]","routeRegex":"^\\/cars\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"80b9a4c131eb02c00ffa3f7d7e9d52c2","previewModeSigningKey":"5f317962ed5df5bce694c2f1e32b6730aaaaa813291edb82cb50dd33289df2d5","previewModeEncryptionKey":"a0e8b343848d7655b49f436d0e10413de8cd34b00913cce8a6ecf1234a853a4c"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "80a97a1528ef1a94a8ed00788cda9786",
+    "previewModeSigningKey": "ab7e65da5d17dd8257ff8bfb30cc6600f594cd7f750926111ebd1c9abe8b1ccb",
+    "previewModeEncryptionKey": "786c4a651658709e5b5166ba46c2e04d8c7d4c6fbe9b3b3591fd0969d6b8462c"
+  }
+}

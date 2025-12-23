@@ -43,11 +43,11 @@ export default function AdminSignupPage() {
                 <div className="text-center">
                     <Link href="/" className="inline-block mb-4">
                         <Image
-                            src="/blue_logo.jpg"
-                            alt="Unique Motors Logo"
-                            width={200}
-                            height={50}
-                            className="h-12 w-auto object-contain mx-auto"
+                            src="/logo.svg"
+                            alt="Unique Motors"
+                            width={220}
+                            height={60}
+                            className="h-14 w-auto mx-auto"
                             priority
                         />
                     </Link>

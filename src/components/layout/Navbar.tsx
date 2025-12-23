@@ -21,11 +21,11 @@ export default function Navbar() {
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center">
                             <Image
-                                src="/blue_logo.jpg"
-                                alt="Unique Motors Logo"
-                                width={160}
+                                src="/logo.svg"
+                                alt="Unique Motors"
+                                width={180}
                                 height={40}
-                                className="h-10 w-auto object-contain"
+                                className="h-10 w-auto"
                                 priority
                             />
                         </Link>
