@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/bookings/page": "app/admin/bookings/page.js",
+  "/admin/cars/edit/[id]/page": "app/admin/cars/edit/[id]/page.js",
+  "/admin/cars/new/page": "app/admin/cars/new/page.js",
+  "/admin/cars/page": "app/admin/cars/page.js",
+  "/admin/drivers/page": "app/admin/drivers/page.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/settings/page": "app/admin/settings/page.js",
+  "/api/proxy-booking/route": "app/api/proxy-booking/route.js",
+  "/cars/[id]/page": "app/cars/[id]/page.js",
+  "/cars/page": "app/cars/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

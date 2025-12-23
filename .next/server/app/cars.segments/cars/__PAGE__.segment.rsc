@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[3265,["/_next/static/chunks/7c3bf41de5967934.js","/_next/static/chunks/c6ab6602a02ea1b2.js","/_next/static/chunks/6618775cb041e8fb.js"],"default"]
+3:I[50351,["/_next/static/chunks/7c3bf41de5967934.js","/_next/static/chunks/c6ab6602a02ea1b2.js","/_next/static/chunks/6618775cb041e8fb.js"],"default"]
+4:I[53260,["/_next/static/chunks/7c3bf41de5967934.js","/_next/static/chunks/c6ab6602a02ea1b2.js","/_next/static/chunks/6618775cb041e8fb.js"],"default"]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+0:{"buildId":"E6vndBoVd-_1NZK-oX63Y","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-background text-foreground","children":[["$","$L2",null,{}],["$","div",null,{"className":"pt-24 pb-12 bg-muted/20","children":["$","div",null,{"className":"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8","children":[["$","h1",null,{"className":"text-4xl font-bold tracking-tight mb-2","children":"Our Fleet"}],["$","p",null,{"className":"text-muted","children":"Premium vehicles available across major Nigerian cities."}]]}]}],["$","div",null,{"className":"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12","children":["$","$L3",null,{}]}],["$","$L4",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/7c3bf41de5967934.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/c6ab6602a02ea1b2.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/6618775cb041e8fb.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

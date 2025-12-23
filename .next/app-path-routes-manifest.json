@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/bookings/page": "/admin/bookings",
+  "/admin/cars/edit/[id]/page": "/admin/cars/edit/[id]",
+  "/admin/cars/new/page": "/admin/cars/new",
+  "/admin/cars/page": "/admin/cars",
+  "/admin/drivers/page": "/admin/drivers",
+  "/admin/login/page": "/admin/login",
+  "/admin/page": "/admin",
+  "/admin/settings/page": "/admin/settings",
+  "/api/proxy-booking/route": "/api/proxy-booking",
+  "/cars/[id]/page": "/cars/[id]",
+  "/cars/page": "/cars",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

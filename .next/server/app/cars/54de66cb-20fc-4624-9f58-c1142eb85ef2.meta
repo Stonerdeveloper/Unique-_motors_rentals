@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/cars/layout,_N_T_/cars/[id]/layout,_N_T_/cars/[id]/page,_N_T_/cars/54de66cb-20fc-4624-9f58-c1142eb85ef2"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/cars/$d$id/__PAGE__",
+    "/cars/$d$id",
+    "/cars",
+    "/_index",
+    "/_head"
+  ]
+}
