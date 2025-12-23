@@ -19,16 +19,14 @@ export default function Navbar() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex items-center">
-                        <Link href="/" className="flex items-center">
-                            <Image
-                                src="/logo.svg"
-                                alt="Unique Motors"
-                                width={180}
-                                height={40}
-                                className="h-10 w-auto"
-                                priority
-                            />
-                        </Link>
+                        <Image
+                            src="/blue_logo.jpg"
+                            alt="Unique Motors"
+                            width={200}
+                            height={60}
+                            className="h-10 w-auto object-contain"
+                            priority
+                        />
                     </div>
 
                     <div className="hidden lg:block">
