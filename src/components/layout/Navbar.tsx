@@ -20,11 +20,11 @@ export default function Navbar() {
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex items-center">
                         <Image
-                            src="/blue_logo.jpg"
+                            src="/PHOTO-2025-12-23-11-33-39.jpg"
                             alt="Unique Motors"
                             width={200}
                             height={60}
-                            className="h-10 w-auto object-contain"
+                            className="h-12 w-auto object-contain"
                             priority
                         />
                     </div>

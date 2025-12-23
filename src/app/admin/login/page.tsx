@@ -42,11 +42,11 @@ export default function AdminLoginPage() {
                 <div className="text-center">
                     <Link href="/" className="inline-block mb-4">
                         <Image
-                            src="/blue_logo.jpg"
+                            src="/PHOTO-2025-12-23-11-33-39.jpg"
                             alt="Unique Motors"
                             width={220}
                             height={80}
-                            className="h-16 w-auto object-contain mx-auto"
+                            className="h-20 w-auto object-contain mx-auto"
                             priority
                         />
                     </Link>
