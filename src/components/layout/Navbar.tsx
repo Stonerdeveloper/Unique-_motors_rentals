@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone, MessageSquare } from "lucide-react";
 import { useState } from "react";
 import { clsx, type ClassValue } from "clsx";
@@ -18,8 +19,15 @@ export default function Navbar() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex items-center">
-                        <Link href="/" className="text-xl font-bold tracking-tighter uppercase italic">
-                            UNIQUE<span className="text-accent">MOTORS</span>
+                        <Link href="/" className="flex items-center">
+                            <Image
+                                src="/blue_logo.jpg"
+                                alt="Unique Motors Logo"
+                                width={160}
+                                height={40}
+                                className="h-10 w-auto object-contain"
+                                priority
+                            />
                         </Link>
                     </div>
 

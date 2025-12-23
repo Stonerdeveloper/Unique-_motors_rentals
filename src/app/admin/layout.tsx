@@ -3,6 +3,7 @@
 import React from "react";
 
 import Link from "next/link";
+import Image from "next/image";
 import {
     LayoutDashboard,
     Car,
@@ -69,9 +70,16 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             `}>
                 <div className="p-6">
                     <div className="flex items-center justify-between">
-                        <Link href="/" className="text-lg font-bold tracking-tighter hover:opacity-80 transition-opacity uppercase italic">
-                            UNIQUE<span className="text-amber-500">MOTORS</span>
-                            <span className="block text-[10px] not-italic uppercase text-zinc-400 font-bold tracking-widest mt-1">Admin Portal</span>
+                        <Link href="/" className="flex flex-col items-start gap-1">
+                            <Image
+                                src="/blue_logo.jpg"
+                                alt="Unique Motors Logo"
+                                width={160}
+                                height={40}
+                                className="h-8 w-auto object-contain"
+                                priority
+                            />
+                            <span className="text-[10px] uppercase text-zinc-400 font-bold tracking-widest pl-1">Admin Portal</span>
                         </Link>
                         <button onClick={() => setIsSidebarOpen(false)} className="lg:hidden p-2 text-zinc-400">
                             <X size={20} />
@@ -113,8 +121,15 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             {/* Main Content */}
             <main className="flex-1 overflow-y-auto flex flex-col">
                 <header className="h-16 border-b border-zinc-200 bg-white flex items-center justify-between px-8 lg:hidden shrink-0">
-                    <Link href="/" className="text-sm font-bold tracking-tighter uppercase italic">
-                        UNIQUE<span className="text-amber-500">MOTORS</span>
+                    <Link href="/" className="flex items-center">
+                        <Image
+                            src="/blue_logo.jpg"
+                            alt="Unique Motors Logo"
+                            width={120}
+                            height={30}
+                            className="h-8 w-auto object-contain"
+                            priority
+                        />
                     </Link>
                     <button onClick={() => setIsSidebarOpen(true)} className="p-2 -mr-2 text-zinc-600">
                         <Menu size={24} />

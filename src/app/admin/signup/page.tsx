@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Lock, Mail, Loader2, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { supabase } from "@/lib/supabase";
 import { useRouter } from "next/navigation";
 
@@ -40,8 +41,15 @@ export default function AdminSignupPage() {
         <div className="min-h-screen flex items-center justify-center bg-zinc-50 p-4">
             <div className="w-full max-w-md space-y-8">
                 <div className="text-center">
-                    <Link href="/" className="text-2xl font-bold tracking-tighter uppercase italic">
-                        UNIQUE<span className="text-amber-500">MOTORS</span>
+                    <Link href="/" className="inline-block mb-4">
+                        <Image
+                            src="/blue_logo.jpg"
+                            alt="Unique Motors Logo"
+                            width={200}
+                            height={50}
+                            className="h-12 w-auto object-contain mx-auto"
+                            priority
+                        />
                     </Link>
                     <h2 className="mt-6 text-2xl font-bold tracking-tight text-zinc-900">Create Admin Account</h2>
                     <p className="mt-2 text-sm text-zinc-500 font-medium">Set up your administrative credentials.</p>
